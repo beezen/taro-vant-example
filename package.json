@@ -1,0 +1,51 @@
+{
+  "name": "taro-vant-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Just For Fun",
+  "templateInfo": {
+    "name": "default",
+    "typescript": false,
+    "css": "less"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:h5": "taro build --type h5",
+    "dev:weapp": "taro build --type weapp --watch",
+    "dev:h5": "taro build --type h5 --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "3.4.1",
+    "@tarojs/plugin-framework-vue2": "3.4.1",
+    "@tarojs/plugin-html": "3.4.1",
+    "@tarojs/runtime": "3.4.1",
+    "@tarojs/taro": "3.4.1",
+    "babel-plugin-import": "1.13.3",
+    "vant": "2.12.13",
+    "vue": "^2.5.0",
+    "vue-template-compiler": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "3.4.1",
+    "@tarojs/webpack-runner": "3.4.1",
+    "@types/webpack-env": "^1.13.6",
+    "babel-preset-taro": "3.4.1",
+    "colors": "^1.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-taro": "3.4.1",
+    "eslint-plugin-vue": "^6.x",
+    "fs-extra": "^10.0.1",
+    "minimist": "^1.2.5",
+    "shelljs": "^0.8.5",
+    "stylelint": "9.3.0",
+    "vue-loader": "^15.9.2"
+  }
+}
