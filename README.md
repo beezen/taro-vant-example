@@ -1,6 +1,19 @@
 # taro-vant-example
 
-这是一个 Taro 框架和 vant UI 组件库结合使用的 Demo 项目。
+这是一个 Taro 框架和 vant UI 组件库结合使用的 Demo 示例。
+
+## 快速执行
+
+```bash
+# 安装依赖
+$ yarn
+
+# 运行小程序
+$ yarn dev:weapp # OR npm run dev:weapp
+
+# 运行H5
+$ yarn dev:h5 # OR npm run dev:h5
+```
 
 ## 跨端 UI 库选择
 

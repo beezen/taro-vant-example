@@ -11,7 +11,7 @@ const config = {
     "@/vant": path.resolve(__dirname, "../src/components/vant-weapp"),
   },
   sourceRoot: "src",
-  outputRoot: `dist`,
+  outputRoot: `dist`, // 多端同构时，使用环境变量做目录,例如： `dist/${process.env.TARO_ENV}`
   plugins: [
     [
       "@tarojs/plugin-html",
